@@ -1,0 +1,23 @@
+# Core web framework
+Flask==3.0.3
+
+# Production server (Render uses this to run Flask apps)
+gunicorn==21.2.0
+
+# OpenAI for AI/Chatbot integration
+openai==1.40.0
+
+# For environment variable management
+python-dotenv==1.0.1
+
+# For handling HTTP requests (if used in your chatbot)
+requests==2.32.3
+
+# Optional: if your app uses async features or websockets
+aiohttp==3.9.5
+
+# Optional: if you use data structures or JSON parsing
+pandas==2.2.3
+
+# Optional: useful utilities for general development
+tqdm==4.66.5
